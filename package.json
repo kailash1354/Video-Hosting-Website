@@ -2,14 +2,18 @@
   "name": "video-hosting-website",
   "version": "1.0.0",
   "description": "A Video Hosting Website's Backend which has each and every features like the Youtube",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "Kailash Aghav",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
